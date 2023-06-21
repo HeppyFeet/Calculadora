@@ -1,0 +1,19 @@
+form{
+    margin: 10%;
+    width: 30%;
+    border-style: outset;
+    padding: 10px;
+    font-size: 35px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+a:link{
+    font-size: 22px;
+    text-align: center;
+ }
+ .btn{
+  color: black;
+ }

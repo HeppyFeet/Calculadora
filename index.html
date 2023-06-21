@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="index.css">
+
+<body>
+    <form method="get" action="calculadora.php">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-6">
+                    <label for="">Digite o primeiro numero</label>
+                    <input type="text" class="form-control" name="v1">
+                </div>
+                </br>
+                <div class="col-6">
+                    <label for="">Digite o segundo numero</label>
+                    <input type="text" class="form-control" name="v2">
+                </div>
+            </div>
+            <fieldset>
+                <legend>Operacao</legend>
+                <div class="row">
+                    <div class="col-12">
+                        <input type="radio" name="oper" id="soma" value="1" checked>
+                        <label for="soma">Soma</label>
+                    </div>
+                    <div class="col-12">
+                        <input type="radio" name="oper" id="sub" value="2">
+                        <label for="sub">Subtracao</label>
+                    </div>
+                    <div class="col-12">
+                        <input type="radio" name="oper" id="mult" value="3">
+                        <label for="mult">Multiplicacao</label>
+                    </div>
+                    <div class="col-12">
+                        <input type="radio" name="oper" id="div" value="4">
+                        <label for="div">Divisao</label>
+                    </div>
+
+            </fieldset>
+
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Calcular</button>
+    </form>
+</body>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<html>
